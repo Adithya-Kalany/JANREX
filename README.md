@@ -35,3 +35,6 @@ currently planned:
 - ~~discord server~~
 - patch list for people to add (simular to the suckless hacking guide)
 - more! (dm me on discord Giant#7650 I'll try to add what I can :])
+
+# What is this fork about?
+This is my personal fork with my configs and patches. You may clone this and change this to your liking.
