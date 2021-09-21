@@ -1,10 +1,10 @@
 module.exports = {
   disableFrameRateLimit : true,
-  angleBackend : "default", // gl default d3d11 d3d9 d3d11on12 vulkan metal
+  angleBackend : "gl", // gl default d3d11 d3d9 d3d11on12 vulkan metal
   inProcessGPU : false,
   allowScripts : true,
-  discordRpc : true,
-  startInFullscreen : true,
+  discordRpc : false,
+  startInFullscreen : false,
   scriptSettings : {
     skyColor : {
       enabled : true,
@@ -12,9 +12,9 @@ module.exports = {
     },
     autoFFA : {
       // provided by nz#4471 / krTree
-      enabled : false,
+      enabled : true,
       autoJoinGameMode : "ffa", // ffa tdm point ctf kc
-      autoJoinKeybind : "F4",
+      autoJoinKeybind : "F6",
       attemptJoinFull : false,
       filterWrongVersion : true,
     }
