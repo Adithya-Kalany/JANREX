@@ -10,6 +10,7 @@ if (!fs.existsSync(path.join(__dirname, "config.js"))) {
 
 const config = require('./config');
 const DiscordRpc = require("discord-rpc");
+const swap = require("./scripts/swap")
 const {shell} = require('electron');
 
 console.log(config);
@@ -18,6 +19,7 @@ let win;
 
 const init =
     () => {
+      swap[1]()
       const {width, height} = screen.getPrimaryDisplay().workAreaSize;
       win = new BrowserWindow({
         width : width,
@@ -65,6 +67,7 @@ const init =
           event.newGuest = newWin;
         }
       });
+      swap[0](win)
     }
 
 const clientId = "861369241096552448";
@@ -97,6 +100,7 @@ const addSwitches =
     }
 
 addSwitches();
++swap[2]()
 app.on('ready', init);
 
 app.on('window-all-closed', () => {
