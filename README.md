@@ -3,8 +3,8 @@
 
 [![Discord server](https://discordapp.com/api/guilds/858349630881923083/widget.png?style=banner1)](https://discord.gg/UdZvmNeNqq)
  
-# wait so how to download?
-so unlike other clients, Janrex aims to use the actual source code as the intended method of modification, the default build comes with a sky color script, and modification is done with the actual source code, although there is a `config.js` file to be used appropriately
+# Wait so how to download?
+So unlike other clients, Janrex aims to use the actual source code as the intended method of modification, the default build comes with a sky color script, and modification is done with the actual source code, although there is a `config.js` file to be used appropriately
 
 build tools:
 ```
@@ -22,11 +22,11 @@ yarn start #run client
 if you want to compile it, just run `yarn package-<PLATFORM>` but with your platform, ex: `yarn package-linux`
 all compiled builds end up in the release-builds folder
 
-# this seems pretty limiting....
-this client is more of a gateway for different patches to be applied, for example if you wish to add another chromium flag, add it to main.js
+# This seems pretty limiting....
+This client is more of a gateway for different patches to be applied, for example if you wish to add another chromium flag, add it to main.js
 
-# planned features.....
-currently planned:
+# Planned features.....
+Currently planned:
 - discord rpc
 - ~~actual icon~~
 - ~~F4 lobby switcher builtin~~
